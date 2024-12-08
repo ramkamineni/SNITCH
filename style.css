@@ -1,0 +1,643 @@
+@media screen and (min-width:0px) and (max-width:320px)
+{    
+    .discount_banner
+    {
+        height: 3vh;
+    }
+    .discount_banner p
+    {
+        font-size: xx-small;
+    }
+    .discount_banner p a
+    {
+        display: none;
+    }
+    .footer
+    {
+        display: none;
+    }
+    .button
+    {
+        font-size: 1vh;
+        position: relative;
+        top: -60vh;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1440px)
+{
+    
+}
+
+.discount
+{
+    background-color:black;
+    height: 5vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    
+}
+.discount p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 1vh;
+    font-size:1.6vh;
+    letter-spacing: 1px;
+}
+.discount a
+{
+   
+    color: white;
+    
+}
+.navbar
+{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    height: 10vh;
+    width:100vw;
+    box-shadow: 0px 1px rgb(200, 199, 199);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-items: center;
+    z-index: 1;
+}
+.navbar img
+{
+    position: relative;
+    left: 35% ;
+    height: 5vw;
+}
+.nav_items
+{
+   position: relative;
+   left:53vw;  
+}
+.nav_items svg
+{
+    height: 4vh;
+    width: 5vw;
+}
+.navbar a svg:hover
+{
+    height:5vh;
+}
+/* .snitch
+{
+    border: 1px solid transparent;
+    height: 70vh;
+    position:static;
+    top: 5vh;
+
+    animation-name: snitch;
+    animation-duration: 12s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+@keyframes snitch 
+{
+    from
+   {
+    background-image: url(./images/snitch/img_1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+   to
+   {
+    background-image: url(./images/snitch/img_1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+   /* 100%
+   {
+    background-image: url(./images/snitch/img_4.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+   }  */
+} */
+.snitch
+{
+    height: 70vh;
+    width: 100vw;
+    margin: 2vw auto;
+}
+.snitch img
+{
+    height: 70vh;
+    width: 100vw;
+}
+
+.button
+{
+   position: relative;
+   left: 42vw;
+   top: 7vh;
+   height: 7vh;
+   width: 15vw;
+   font-size: 2vh;
+   border: 1px solid transparent;
+   border-radius: 30px;
+   color: black;
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
+    font-size:2.5vh ;
+}
+.shirts
+{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5vh;
+}
+.content
+{
+   height: 60.5vh;
+   width: 20vw;
+   border: 1px solid rgb(194, 194, 194);
+   box-sizing: border-box;
+}
+.img_1
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/content/img_1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text
+{
+   background-color: white; 
+   color: black;
+   width: 19vw;
+   height: 10vh;
+   text-align: justify;
+}
+.p1
+{
+    font-size: 2vh;
+}
+.p2
+{
+    font-size: 1.7vh;
+    font-style: italic;
+}
+.p3
+{
+    font-size: 2vh;
+    word-spacing: 0.5vw;
+}
+.img_1:hover
+{
+    background-image: url(./images/coolection/content/img_1.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_2
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/content/img_2.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_2:hover
+{
+    background-image: url(./images/coolection/content/img_2.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_3
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/content/img_3.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_3:hover
+{
+    background-image: url(./images/coolection/content/img_3.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_4
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/content/img_4.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_4:hover
+{
+    background-image: url(./images/coolection/content/img_4.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button01
+{
+    position: relative;
+    left: 82vw;
+    top: 11vh;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.5vh;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: black; 
+}
+.button_1
+{
+   position: relative;
+   left: 33vw;
+   top: 14vh;
+   height: 7vh;
+   width: 15vw;
+   font-size: 2vh;
+   border: 1px solid transparent;
+   border-radius: 30px;
+   color: black;
+}
+.button_1:hover
+{
+    background-color: black;
+    color: white;
+    font-size:2.5vh ;
+}
+.sweaters
+{
+    position: relative;
+    top: 19vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5vh;
+}
+.sweaters div .img_1
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/sweaters/img_1.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_1:hover
+{
+    background-image: url(./images/coolection/sweaters/img_1.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_2
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/sweaters/img_2.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_2:hover
+{
+    background-image: url(./images/coolection/sweaters/img_2.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_3
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/sweaters/img_3.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_3:hover
+{
+    background-image: url(./images/coolection/sweaters/img_3.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_4
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/coolection/sweaters/img_4.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweaters div .img_4:hover
+{
+    background-image: url(./images/coolection/sweaters/img_4.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button02
+{
+    position: relative;
+    left: 82vw;
+    top: 20vh;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.5vh;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: black; 
+}
+.button_2
+{
+   position: relative;
+   left: 33vw;
+   top: 23vh;
+   height: 7vh;
+   width: 15vw;
+   font-size: 2vh;
+   border: 1px solid transparent;
+   border-radius: 30px;
+   color: black;
+}
+.button_2:hover
+{
+    background-color: black;
+    color: white;
+    font-size:2.5vh ;
+}
+.trending
+{
+    position: relative;
+    top: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5vh;
+    border-radius: 60px;
+}
+.trending .img
+{
+    height: 70vh;
+    width: 22vw;
+    border-radius: 60px;
+    
+}
+.trending .img img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+}
+.trending p
+{    
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: -5vh;
+    left: 1vw;    
+}
+.img
+{
+    overflow: hidden;
+}
+.img img
+{
+    transition: scale 400ms;
+
+}
+.img:hover img
+{
+    scale: 110%;
+}
+.button03
+{
+    position: relative;
+    left: 82vw;
+    top: 30vh;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.5vh;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: black; 
+}
+.button_3
+{
+   position: relative;
+   left: 42vw;
+   top: 35vh;
+   height: 7vh;
+   width: 15vw;
+   font-size: 2vh;
+   border: 1px solid transparent;
+   border-radius: 30px;
+   color: black;
+}
+.button_3:hover
+{
+    background-color: black;
+    color: white;
+    font-size:2.5vh ;
+}
+.jeans
+{
+    position: relative;
+    top: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5vh;
+}
+.jeans div .img_1
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/jeans/img_1.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_1:hover
+{
+    background-image: url(./images/jeans/img_1.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_2
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/jeans/img_2.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_2:hover
+{
+    background-image: url(./images/jeans/img_2.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_3
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/jeans/img_3.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_3:hover
+{
+    background-image: url(./images/jeans/img_3.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_4
+{
+    height: 50vh;
+    width: 20vw;
+    background-image: url(./images/jeans/img_4.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jeans div .img_4:hover
+{
+    background-image: url(./images/jeans/img_4.2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button04
+{
+    position: relative;
+    left: 82vw;
+    top: 43vh;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.5vh;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: black; 
+}
+
+.footer
+{
+    border: 1px solid;
+    border-top-color: rgb(162, 162, 162);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 100vw;
+    position: relative;
+    top: 50vh;
+    display: flex;
+
+}
+.footer p
+{
+    letter-spacing: 2px;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;  
+}
+.footer a
+{
+    color: black;
+    font-size: 2vh;
+    display: block;
+    text-decoration: none;
+}
+.div1
+{
+    font-size: 2vh;
+    color: black;
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+}
+.div2
+{
+    font-size: 2vh;
+    color: black;
+    position: relative;
+    top: 10vh;
+    left: 8vw;
+}
+.div3
+{
+    font-size: 2vh;
+    color: black;
+    position: relative;
+    top: 10vh;
+    left:16vw;
+}
+.div4
+{
+    font-size: 2vh;
+    color: black;
+    position: relative;
+    top: 10vh;
+    left: 24vw;
+}
+.div5
+{
+    font-size: 2vh;
+    color: black;
+    position: relative;
+    top: 40vh;
+    left: -48vw;
+}
+.div5 input
+{
+    width: 20vw;
+    position: relative;
+    top: 1vh;
+    border: 6px solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: black;
+}
+.div6
+{
+    font-size: 2vh;
+    color: black;
+    position: relative;
+    top: 40vh;
+    left: -46vw;
+}
+.div61
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    position: relative;
+    top: 1vh;
+}
+.div61 a svg
+{
+    height: 4vh;
+}
+.div61 a svg:hover
+{
+    height: 5vh;
+}
+
+
+
+
+
